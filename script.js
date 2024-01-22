@@ -14,7 +14,7 @@ var one, two, three, four = 0;
 function checkone() {
     var firsttext = firstinput.value;
     if(firsttext == "I mean something."){
-        window.open("one.html", "_blank");
+        window.open("nailed.html", "_blank");
         one = 1;
         if(one && two && three && four == 1){
             accept.removeAttribute("hidden");
@@ -24,7 +24,7 @@ function checkone() {
 function checktwo() {
     var secondtext = secondinput.value;
     if(secondtext == "SHUT UP"){
-        window.open("two.html", "_blank");
+        window.open("range.html", "_blank");
         two = 1;
         if(one && two && three && four == 1){
             accept.removeAttribute("hidden");
@@ -34,7 +34,7 @@ function checktwo() {
 function checkthree() {
     var thirdtext = thirdinput.value;
     if(thirdtext == "DESPERATE"){
-        window.open("three.html", "_blank");
+        window.open("arabinging.html", "_blank");
         three = 1;
         if(one && two && three && four == 1){
             accept.removeAttribute("hidden");
@@ -46,7 +46,7 @@ function checkthree() {
 function checkfour() {
     var fourthtext = fourthinput.value;
     if(fourthtext == "suicide"){
-        window.open("four.html", "_blank");
+        window.open("deniproses.html", "_blank");
         four = 1;
         if(one && two && three && four == 1){
             accept.removeAttribute("hidden");
@@ -78,10 +78,10 @@ function hinthover3(){
     }
 }
 function hinthover4(){
-    if(fourthhint.innerHTML == "retrace your steps"){
+    if(fourthhint.innerHTML == "retrace your steps from 1 to 3"){
         fourthhint.innerHTML = "OEtfTU9ES0kiNUZebzMkREooKS5CbSsmMUdBMi80K0YubUpFWmZGOkJsa0orREwkKTtFYi1BLStFTWE8QDwqSykrRXFPOUNgbU0tQ2h0NT5EZm0xNkclR1A2QmtBSyVGPEdANUNpIi84RC5QPUJBOCxPYkJtIkk=";
     } else{
-        fourthhint.innerHTML = "retrace your steps";
+        fourthhint.innerHTML = "retrace your steps from 1 to 3";
     }
 }
 function finale(){
@@ -91,6 +91,6 @@ function finale(){
 }
 function acceptance(){
     if(one && two && three && four == 1){
-        window.open("five.html")
+        window.open("accentcape.html")
     }
 }
